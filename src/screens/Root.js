@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import { Grid, Menu } from "semantic-ui-react";
 import HomeScreen from "./Home";
+import ResumeScreen from "./Resume";
 
 class Root extends Component {
   state = { active: "aboutMe" };
@@ -12,8 +13,8 @@ class Root extends Component {
     return (
       <Grid className="app">
         <BrowserRouter>
-          <Grid.Column width={3}>
-            <Menu fluid vertical tabular style={{ height: "98vh" }}>
+          <Grid.Column width={3} verticalAlign="middle">
+            <Menu className="nav" size="huge" fluid vertical tabular>
               <Menu.Item
                 as={Link}
                 to="/"
@@ -28,20 +29,12 @@ class Root extends Component {
                 active={this.state.active === "resume"}
                 onClick={this.handleMenuClick}
               />
-              <Menu.Item
-                as={Link}
-                to="/projects"
-                name="projects"
-                active={this.state.active === "projects"}
-                onClick={this.handleMenuClick}
-              />
             </Menu>
           </Grid.Column>
-          <Grid.Column width={10}>
+          <Grid.Column className="content" verticalAlign="middle" width={10}>
             <Switch>
-              <Route exact component={HomeScreen} />
-              {/* <Route component={}/>
-                <Route component={}/> */}
+              <Route exact path="/" component={HomeScreen} />
+              <Route path="/resume" component={ResumeScreen} />
             </Switch>
           </Grid.Column>
         </BrowserRouter>

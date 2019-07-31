@@ -1,0 +1,11 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.vertical.tabular.menu .item .active-item {
+  margin: 1.5em 0;
+}
+
+.ui.huge.menu {
+  font-size: 1.5em;
+}

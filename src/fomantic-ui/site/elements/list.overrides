@@ -1,0 +1,11 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+.ui.list > .item .header {
+  margin-bottom: 0.5em;
+}
+
+.resume-header {
+  font-size: 1.8em;
+}

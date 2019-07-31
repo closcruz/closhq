@@ -1,0 +1,16 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.grid > .row {
+  margin: 1.1rem 0;
+}
+
+.app {
+  height: 100vh;
+}
+
+.content {
+  margin-top: 2em;
+  margin-left: 12%;
+}
