@@ -4,5 +4,6 @@
 
 @h1: 3em;
 
-@primaryColor: #002f4e;
-@pageBackground: #eff0f1;
+// @pageBackground: #cdcdcd;
+// @primaryColor: #002f4e;
+// @pageBackground: #eff0f1;

@@ -2,8 +2,29 @@
          Site Overrides
 *******************************/
 
+.ui.vertical.tabular.menu {
+  background-color: #16283a;
+}
+
+.ui.vertical.menu .item > .header:not(.ui) {
+  font-size: 3em;
+  color: #4a89c9;
+  margin-right: 25%;
+  margin-bottom: 10%;
+}
+
+.ui.vertical.tabular.menu .active.item {
+  color: #4a89c9;
+  background-color: #cdcdcd;
+}
+
 .ui.vertical.tabular.menu .item .active-item {
   margin: 1.5em 0;
+}
+
+.ui.vertical.tabular.menu .item {
+  top: 30vh;
+  color: #4a89c9;
 }
 
 .ui.huge.menu {
