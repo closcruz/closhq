@@ -6,3 +6,9 @@
   max-width: 300px;
   margin-top: 5%;
 }
+
+.ui.huge.attached.header {
+  font-size: 2em;
+  border: 0;
+  background-color: #cccccc;
+}

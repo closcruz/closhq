@@ -8,6 +8,11 @@
 
 .app {
   height: 100vh;
+  background-color: #cccccc;
+}
+
+.column > .ui.large.header {
+  color: #4b7cc9;
 }
 
 .content {

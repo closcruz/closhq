@@ -4,9 +4,15 @@ import { Grid, Header, Container, Segment, List } from "semantic-ui-react";
 const ResumeScreen = () => (
   <React.Fragment>
     <Header as="h1" content="Profesional About Me" />
-    <Header textAlign="center" size="huge" attached="top" content="Skillset" />
-    <Segment attached>
-      <Grid textAlign="center" celled>
+    <Header
+      className="skillset-header"
+      textAlign="center"
+      size="huge"
+      attached="top"
+      content="Skillset"
+    />
+    <Segment attached raised>
+      <Grid className="skills" textAlign="center" celled="internally">
         <Grid.Row columns={3}>
           <Grid.Column>
             <Header size="large" content="JavaScript" />
