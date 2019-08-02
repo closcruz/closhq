@@ -1,17 +1,13 @@
 import React from "react";
 import { Header, Container, Image, Grid } from "semantic-ui-react";
+import headshot from "../assets/headshot.jpg";
 
 const HomeScreen = () => (
   <React.Fragment>
     <Grid>
       <Grid.Row>
         <Header className="homeTitle" as="h1" content="Carlos Cruz Ramos" />
-        <Image
-          className="headshot"
-          src="https://via.placeholder.com/150"
-          size="small"
-          circular
-        />
+        <Image className="headshot" src={headshot} size="small" circular />
       </Grid.Row>
       <Grid.Row>
         <Header sub content="Currently in: Austin, TX area" />
