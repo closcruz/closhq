@@ -2,6 +2,7 @@
          Site Overrides
 *******************************/
 
-.ui.attached.segment {
-  background-color: #16283a;
+.main.pushable {
+  height: 100vh;
+  background-color: #cdcdcd;
 }

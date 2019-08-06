@@ -2,7 +2,7 @@ import React from "react";
 import { Grid, Header, Container, Segment, List } from "semantic-ui-react";
 
 const ResumeScreen = () => (
-  <React.Fragment>
+  <Container>
     <Header as="h1" content="Profesional About Me" />
     <Header
       className="skillset-header"
@@ -136,7 +136,7 @@ const ResumeScreen = () => (
         </List.Item>
       </List>
     </Container>
-  </React.Fragment>
+  </Container>
 );
 
 export default ResumeScreen;

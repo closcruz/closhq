@@ -4,6 +4,7 @@
 
 .ui.vertical.tabular.menu {
   background-color: #16283a;
+  text-align: right;
 }
 
 .ui.vertical.menu .item > .header:not(.ui) {
