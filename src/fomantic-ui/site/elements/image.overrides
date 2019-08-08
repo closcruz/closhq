@@ -3,5 +3,6 @@
 *******************************/
 
 .headshot {
-  left: 50%;
+  margin-left: 55%;
+  margin-right: 5%;
 }

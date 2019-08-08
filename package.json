@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start-dev": "craco start",
-    "start-prod": "serve --sinlge ./build",
+    "start-prod": "serve --single ./build",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"

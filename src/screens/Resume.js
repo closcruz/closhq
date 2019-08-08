@@ -12,38 +12,44 @@ const ResumeScreen = () => (
       content="Skillset"
     />
     <Segment attached raised>
-      <Grid className="skills" textAlign="center" celled="internally">
-        <Grid.Row columns={3}>
+      <Grid
+        className="skills"
+        textAlign="center"
+        celled="internally"
+        columns={3}
+        doubling
+      >
+        <Grid.Row>
           <Grid.Column>
-            <Header size="large" content="JavaScript" />
+            <Header size="medium" content="JavaScript" />
           </Grid.Column>
           <Grid.Column>
-            <Header size="large" content="Python" />
+            <Header size="medium" content="Python" />
           </Grid.Column>
           <Grid.Column>
-            <Header size="large" content="Java" />
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row columns={3}>
-          <Grid.Column>
-            <Header size="large" content="ReactJS" />
-          </Grid.Column>
-          <Grid.Column>
-            <Header size="large" content="ExpressJS" />
-          </Grid.Column>
-          <Grid.Column>
-            <Header size="large" content="NodeJS" />
+            <Header size="medium" content="Java" />
           </Grid.Column>
         </Grid.Row>
-        <Grid.Row columns={3}>
+        <Grid.Row>
           <Grid.Column>
-            <Header size="large" content="HTML/CSS" />
+            <Header size="medium" content="ReactJS" />
           </Grid.Column>
           <Grid.Column>
-            <Header size="large" content="Windows/Linux" />
+            <Header size="medium" content="ExpressJS" />
           </Grid.Column>
           <Grid.Column>
-            <Header size="large" content="Android" />
+            <Header size="medium" content="NodeJS" />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column>
+            <Header size="medium" content="HTML/CSS" />
+          </Grid.Column>
+          <Grid.Column>
+            <Header size="medium" content="Windows/Linux" />
+          </Grid.Column>
+          <Grid.Column>
+            <Header size="medium" content="Android" />
           </Grid.Column>
         </Grid.Row>
       </Grid>

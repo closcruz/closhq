@@ -10,7 +10,7 @@
   height: 100vh;
 }
 
-.column > .ui.large.header {
+.column > .ui.medium.header {
   color: #4b7cc9;
 }
 
