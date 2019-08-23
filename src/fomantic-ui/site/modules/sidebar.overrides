@@ -11,3 +11,10 @@
 .pushable:not(body) > .pusher:after {
   position: fixed;
 }
+
+.sidebar-menu {
+  max-width: 250px;
+  @media (max-width: 440px) {
+    max-width: 200px;
+  }
+}

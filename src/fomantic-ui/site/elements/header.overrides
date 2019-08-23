@@ -4,7 +4,11 @@
 
 .homeTitle {
   max-width: 300px;
-  margin-top: 5%;
+}
+
+.ui.header:first-child,
+.ui.dividing.header {
+  color: #16283a;
 }
 
 .ui.huge.attached.header {

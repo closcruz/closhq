@@ -3,7 +3,7 @@ import { Grid, Header, Container, Segment, List } from "semantic-ui-react";
 
 const ResumeScreen = () => (
   <Container>
-    <Header as="h1" content="Profesional About Me" />
+    <Header as="h1" className="homeTitle" content="Profesional About Me" />
     <Header
       className="skillset-header"
       textAlign="center"

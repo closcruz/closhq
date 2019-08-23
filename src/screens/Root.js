@@ -10,6 +10,7 @@ import {
 } from "semantic-ui-react";
 import HomeScreen from "./Home";
 import ResumeScreen from "./Resume";
+import ProjectScreen from "./Projects";
 
 class Root extends Component {
   state = { active: null, visible: true };
@@ -25,6 +26,7 @@ class Root extends Component {
       <BrowserRouter>
         <Sidebar.Pushable className="main" as={Segment}>
           <Sidebar
+            className="sidebar-menu"
             as={Menu}
             animation="overlay"
             size="huge"
@@ -48,6 +50,13 @@ class Root extends Component {
               to="/resume"
               name="resume"
               active={active === "resume"}
+              onClick={this.handleMenuClick}
+            />
+            <Menu.Item
+              as={Link}
+              to="/project"
+              name="project"
+              active={active === "project"}
               onClick={this.handleMenuClick}
             />
             <Menu.Item as="a" href="https://github.com/closcruz/">
@@ -74,6 +83,7 @@ class Root extends Component {
               <Switch>
                 <Route exact path="/" component={HomeScreen} />
                 <Route path="/resume" component={ResumeScreen} />
+                <Route path="/project" component={ProjectScreen} />
               </Switch>
             </Segment>
           </Sidebar.Pusher>
