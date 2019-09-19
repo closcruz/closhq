@@ -14,30 +14,32 @@ const HomeScreen = () => (
       </Grid.Row>
       <Grid.Row>
         <p>
-          I am a somewhat recent graduate from the University of Texas at Austin
-          (graduated August, 2018) with a degree in Economics but a major
-          passion in all things programming and computers. I'm a dependable and
-          result-driven programmer with web development and Android experience
-          that is currently a part in the Wallbreakers program as a Software
-          Engineer trainee and i'm looking to get a start in that career.
+          I am a recent graduate ('18) from UT Austin looking for software
+          engineering opportunities. I have a degree in economics and a minor in
+          computer science, along with a passion for all things programming and
+          computers. I have primary experience with web development and Android,
+          but am constantly reading and learning more. I'm a dependable and
+          result-driven programmer that learns extremely well with experience.
+          Currently, I am in the Wallbreakers program as a Software Engineer
+          trainee and i'm looking to get a start in a Software development
+          career to further hone my skills and learn more about the software
+          development world.
         </p>
       </Grid.Row>
       <Grid.Row>
         <Header size="medium" content="A Story About Me" />
         <p>
-          I have always felt that most of my life has always been about adapting
-          to changes. Even in my younger years change came frequently, through
-          life changing events and constant moving around, and through all those
-          events I came to be familiar and accepting of change. By the time I
-          was halfway through high school, I started to become interested in
-          programming (and thanks to some courses offered there) I knew that
-          doing anything that involved with programming would be my calling. I
-          was always drawn to tech and noticing how fast it changes and allowed
-          me to recognize how it important it would be in life in the coming
-          future. So after 5 years of going to university, a few part-times, and
-          countless personal learning and work hours, my interest has become a
-          passion and I wish to take it even further and further anyway
-          possible.
+          I feel that most of my life has been about adapting to change. Large
+          life altering events and constantly moving around led me to being
+          quite adaptive towards challenges that came my way. I found an
+          interest for programming in high school, and through courses and self
+          teaching I knew I had to incorporate this type of thinking and problem
+          solving into any career I'd choose. Given the fact that technology is
+          constantly changing and evolving, I knew this would be something I
+          would excel at. Now after 5 years of going to university, a few
+          part-times, and countless personal learning and work hours, my
+          interest has grown into a passion that I wish to grow and cultivate in
+          anyway possible.
         </p>
       </Grid.Row>
     </Grid>
